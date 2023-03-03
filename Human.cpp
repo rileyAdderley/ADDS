@@ -1,15 +1,13 @@
 #include <iostream>
-#include HUMAN_H
+#include "Human.h"
 
-int main {
- 
  char human::makeMove( ) {
-    cin >> move;
+    std::cin >> move;
     return move;
 
  }
 
  std::string human::getName( ) {
-    cin >> name;
+    std::cin >> name;
     return name;
  }

@@ -1,7 +1,6 @@
 #include <iostream>
-#include COMPUTER_H
+#include "Computer.h"
 
-int main{
  char computer::makeMove( ) {
     move = 'R';
     return move;
@@ -14,4 +13,3 @@ int main{
 
  }
 
-}

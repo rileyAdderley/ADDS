@@ -8,8 +8,7 @@ class referee
 {
 
 public:
-Referee( );
-Player * refGame(Player * player1, Player * player2);
+player * refGame(player * player1, player * player2);
 };
 
 #endif

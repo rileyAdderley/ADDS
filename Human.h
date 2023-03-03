@@ -1,15 +1,15 @@
 #ifndef HUMAN_H
 #define HUMAN_H
-#include PLAYER_H
+#include "Player.h"
 
 class human
 {
 private:
-string name;
+std::string name;
 char move;
 public:
 char makeMove( );
-string getName( );
+std::string getName( );
 };
 
 #endif

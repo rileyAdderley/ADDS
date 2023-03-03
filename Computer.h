@@ -1,15 +1,14 @@
 #ifndef COMPUTER_H
 #define COMPUTER_H
-#include PLAYER_H
+#include "Player.h"
 
-class computer
-{
+class computer : public player {
 private:
-string name;
+std::string name;
 char move;
 public:
 char makeMove( );
-string getName( );
+std::string getName( );
 
 };
 
