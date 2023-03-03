@@ -8,7 +8,7 @@ int main() {
     Referee R;
     Computer * C = new Computer;
     Human * H = new Human;
-    C->getName() = "computer";
+    C->getName() = "Computer";
     H->getName() = "Riley";
     Player * Winner = R.refGame(H, C);
     if (Winner) {
