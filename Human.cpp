@@ -9,7 +9,6 @@
  }
 
  std::string Human::getName( ) {
-    std::string name;
-    std::cin >> name;
+    std::string name = "Human";
     return name;
  }
