@@ -10,7 +10,7 @@ int main() {
     human * H = new human;
     C->getName() = "computer";
     H->getName() = "Riley";
-    player * Winner = R.refGame(C, H);
+    player * Winner = R.refGame(H, C);
     if (Winner) {
         std::cout << Winner->getName() << std::endl;
     } else {
