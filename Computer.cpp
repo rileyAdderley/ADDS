@@ -2,14 +2,14 @@
 #include "Computer.h"
 
  char computer::makeMove( ) {
-    move = 'R';
-    return move;
+   return 'R';
+    
 
  }
 
  std::string computer::getName( ) {
-    name = "computer";
-    return name;
+    return "computer";
+    
 
  }
 
