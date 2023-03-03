@@ -5,9 +5,9 @@
 #include <iostream>
 
 int main() {
-    referee R;
-    computer * C = new computer;
-    human * H = new human;
+    Referee R;
+    Computer * C = new Computer;
+    Human * H = new Human;
     C->getName() = "computer";
     H->getName() = "Riley";
     player * Winner = R.refGame(H, C);

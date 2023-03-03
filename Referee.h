@@ -4,11 +4,11 @@
 #include "Human.h"
 #include "Player.h"
 
-class referee
+class Referee
 {
-
 public:
-player * refGame(player * player1, player * player2);
+Player * refGame(Player * player1, Player * player2);
+
 };
 
 #endif

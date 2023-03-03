@@ -2,7 +2,7 @@
 #define COMPUTER_H
 #include "Player.h"
 
-class computer : public player {
+class Computer : public Player {
 public:
 char makeMove( );
 std::string getName( );

@@ -1,7 +1,7 @@
 #include <iostream>
 #include "Referee.h"
 
-player * referee::refGame(player * player1, player * player2) {
+Player * Referee::refGame(Player * player1, Player * player2) {
     char player1_move = player1->makeMove();
     char player2_move = player2->makeMove();
     if (player1_move == player2_move) {

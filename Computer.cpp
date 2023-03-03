@@ -1,13 +1,13 @@
 #include <iostream>
 #include "Computer.h"
 
- char computer::makeMove( ) {
+ char Computer::makeMove( ) {
    return 'R';
     
 
  }
 
- std::string computer::getName( ) {
+ std::string Computer::getName( ) {
     return "computer";
     
 
