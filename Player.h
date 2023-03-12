@@ -4,7 +4,7 @@
 #define PLAYER_H
 #include <string>
 #include "Move.h"
-class Player : public Move 
+class Player 
 {
 protected:
 Move * playerMove;

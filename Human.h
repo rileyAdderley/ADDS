@@ -11,7 +11,7 @@ private:
 std::unordered_map<std::string,bool> avaliable_moves;
 public:
 Human();
-Human(std::string Username)
+Human(std::string Username);
 Move * makeMove();
 std::string getName( );
 

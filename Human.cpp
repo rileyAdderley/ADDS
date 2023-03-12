@@ -32,6 +32,6 @@ Move * Human::makeMove() {
    std::string temp;
    cin >> temp;
    MoveFactory humanMove;
-   humanMove.createMove(temp);
+   return humanMove.createMove(temp);
 
 }
