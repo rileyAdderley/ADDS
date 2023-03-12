@@ -12,7 +12,7 @@
 #include "Robot.h"
 #include "Zombie.h"
 #include "string"
-#include "MoveFactory.h"
+#include "moveFactory.h"
 
 using namespace std;
 

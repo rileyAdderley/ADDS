@@ -9,7 +9,7 @@
 #include "Robot.h"
 #include "Zombie.h"
 #include "string"
-#include "MoveFactory.h"
+#include "moveFactory.h"
 #include "Human.h"
 #include <iostream>
 
