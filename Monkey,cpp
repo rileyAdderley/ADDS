@@ -3,6 +3,7 @@
 #include <iostream>
 #include "Monkey.h"
 
+using namespace std;
 Monkey::Monkey() {
     name = "Monkey";
     result = ["Ninja"] = 1;

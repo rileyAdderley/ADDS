@@ -18,9 +18,6 @@ using namespace std;
 
  Human::Human() {
 name = "Human";
-avaliable_moves = ["Rock"] = 1;
-avaliable_moves = ["Scissors"] = 1;
-avaliable_moves = ["Paper"] = 1;
  }
 
 Human::Human(std::string Username) {

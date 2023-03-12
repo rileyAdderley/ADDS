@@ -2,6 +2,7 @@
 #include <iostream>
 #include "Robot.h"
 
+using namespace std;
 Robot::Robot() {
     name = "Robot";
     result = ["Ninja"] = 1;

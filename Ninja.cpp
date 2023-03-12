@@ -2,6 +2,7 @@
 #include <iostream>
 #include "Ninja.h"
 
+using namespace std;
 Ninja::Ninja() {
     name = "Ninja";
     result = ["Pirate"] = 1;

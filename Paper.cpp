@@ -3,6 +3,7 @@
 #include <iostream>
 #include "Paper.h"
 
+using namespace std;
 Paper::Paper() {
     name = "Paper";
     result = ["Rock"] = 1;

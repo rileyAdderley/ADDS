@@ -2,6 +2,7 @@
 #include <iostream>
 #include "Zombie.h"
 
+using namespace std;
 Zombie::Zombie() {
     name = "Zombie";
     result = ["Pirate"] = 1;
