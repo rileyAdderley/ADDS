@@ -3,7 +3,6 @@
 #include "Paper.h"
 #include "Rock.h"
 #include "Scissors.h"
-#include "Monkey.h"
 #include "Ninja.h"
 #include "Pirate.h"
 #include "Robot.h"
@@ -31,16 +30,15 @@ Move* MoveFactory::createMove(std::string moveName) {
     } else if (moveName == "Pirate") {
         Move* m = new Pirate();
         return m;
-    } else if (moveName == "Monkey") {
-        Move* m = new Monkey();
-        return m;
     }  else if (moveName == "Ninja") {
         Move* m = new Ninja();
         return m;
     } else if (moveName == "Zombie") {
         Move* m = new Zombie();
         return m;
-    }
+    } else if (moveName == "Monkey") {
+        Move* m = new Monkey();
+        return m;
 
     return nullptr;
 }
