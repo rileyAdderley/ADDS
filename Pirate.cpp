@@ -4,7 +4,7 @@
 
 using namespace std;
 Pirate::Pirate() {
-    name = "Pirate";
+    moveName = "Pirate";
     result["Robot"] = 1;
     result["Monkey"] = 1;
     
@@ -15,5 +15,5 @@ int Pirate::getResult(std:: string opponent) {
 }
 
 string Pirate::getName() {
-    return name;
+    return moveName;
 }

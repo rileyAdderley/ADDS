@@ -5,7 +5,7 @@
 
 using namespace std;
 Rock::Rock() {
-    name = "Rock";
+    moveName = "Rock";
     result["Scissors"] = 1;
     
 }
@@ -15,5 +15,5 @@ int Rock::getResult(std:: string opponent) {
 }
 
 string Rock::getName( ) {
-    return name;
+    return moveName;
 }

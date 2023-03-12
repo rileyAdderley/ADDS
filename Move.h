@@ -9,7 +9,7 @@
 class Move {
 protected:
 std::unordered_map<std::string, bool> result;
-std::string name;
+std::string moveName;
 public:
 virtual int getResult(std:: string opponent) = 0;
 virtual std::string getName() = 0;

@@ -3,7 +3,7 @@
 
 using namespace std;
 Ninja::Ninja() {
-    name = "Ninja";
+    moveName = "Ninja";
     result["Pirate"] = 1;
     result["Zombie"] = 1;
     
@@ -14,5 +14,5 @@ int Ninja::getResult(std::string opponent) {
 }
 
 string Ninja::getName() {
-    return name;
+    return moveName;
 }

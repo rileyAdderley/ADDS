@@ -4,7 +4,7 @@
 
 using namespace std;
 Zombie::Zombie() {
-    name = "Zombie";
+    moveName = "Zombie";
     result["Pirate"] = 1;
     result["Monkey"] = 1;
     
@@ -15,5 +15,5 @@ int Zombie::getResult(std:: string opponent) {
 }
 
 string Zombie::getName() {
-    return name;
+    return moveName;
 }

@@ -5,7 +5,7 @@
 
 using namespace std;
 Scissors::Scissors() {
-    name = "Scissors";
+    moveName = "Scissors";
     result["Paper"] = 1;
     
 }
@@ -15,5 +15,5 @@ int Scissors::getResult(std:: string opponent) {
 }
 
 string Scissors::getName() {
-    return name;
+    return moveName;
 }

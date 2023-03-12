@@ -5,7 +5,7 @@
 
 using namespace std;
 Paper::Paper() {
-    name = "Paper";
+    moveName = "Paper";
     result["Rock"] = 1;
     
 }
@@ -15,5 +15,5 @@ int Paper::getResult(std:: string opponent) {
 }
 
 string Paper::getName() {
-    return name;
+    return moveName;
 }

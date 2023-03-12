@@ -15,30 +15,30 @@
 #include <iostream>
 
 using namespace std;
-Move * MoveFactory::createMove(std::string move) {
+Move* MoveFactory::createMove(std::string moveName) {
 
-    if(move == "Rock") {
+    if(moveName == "Rock") {
         Move* m = new Rock();
         return m;
-    } else if (move == "Paper") {
+    } else if (moveName == "Paper") {
         Move* m = new Paper();
         return m;
-    } else if (move == "Scissors") {
+    } else if (moveName == "Scissors") {
         Move* m = new Scissors();
         return m;
-    } else if (move == "Robot") {
+    } else if (moveName == "Robot") {
         Move* m = new Robot();
         return m;
-    } else if (move == "Monkey") {
-        Move* m = new Monkey();
-        return m;
-    } else if (move == "Pirate") {
+    } else if (moveName == "Pirate") {
         Move* m = new Pirate();
         return m;
-    } else if (move == "Ninja") {
+    } else if (moveName == "Monkey") {
+        Move* m = new Monkey();
+        return m;
+    } else if (moveName == "Ninja") {
         Move* m = new Ninja();
         return m;
-    } else if (move == "Zombie") {
+    } else if (moveName == "Zombie") {
         Move* m = new Zombie();
         return m;
     }

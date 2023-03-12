@@ -4,7 +4,7 @@
 
 using namespace std;
 Robot::Robot() {
-    name = "Robot";
+    moveName = "Robot";
     result["Ninja"] = 1;
     result["Zombie"] = 1;
     
@@ -15,5 +15,5 @@ int Robot::getResult(std:: string opponent) {
 }
 
 string Robot::getName() {
-    return name;
+    return moveName;
 }
