@@ -1,10 +1,6 @@
 //Collaborated with Zach Shinnick A1851035 and Maxwell Bruce A1766106
 
 #include "moveFactory.h"
-
-#include <iostream>
-
-#include "Human.h"
 #include "monkey.h"
 #include "Move.h"
 #include "Ninja.h"
@@ -14,36 +10,26 @@
 #include "Rock.h"
 #include "Scissors.h"
 #include "Zombie.h"
-#include "string"
-using namespace std;
+
 Move* MoveFactory::createMove(
     std::string moveName) {  
 
   if (moveName == "Rock") {
-    Move* m = new Rock();
-    return m;
+    return new Rock();
   } else if (moveName == "Paper") {
-    Move* m = new Paper();
-    return m;
+    return new Paper();
   } else if (moveName == "Scissors") {
-    Move* m = new Scissors();
-    return m;
+    return new Scissors();
   } else if (moveName == "Robot") {
-    Move* m = new Robot();
-    return m;
+    return new Robot();
   }  else if (moveName == "Pirate") {
-    Move* m = new Pirate();
-    return m;
+    return new Pirate();
   } else if (moveName == "Ninja") {
-    Move* m = new Ninja();
-    return m;
+    return new Ninja();
   } else if (moveName == "Zombie") {
-    Move* m = new Zombie();
-    return m;
+    return new Zombie();
   } else if (moveName == "Monkey") {
-    Move* m = new Monkey();
-    return m;
+    return new Monkey();
   }
-
   return nullptr;
-}
+};

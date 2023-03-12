@@ -4,6 +4,7 @@
 #define REFEREE_H
 #include "Move.h"
 #include "Player.h"
+#include "Human.h"
 
 
 class Referee

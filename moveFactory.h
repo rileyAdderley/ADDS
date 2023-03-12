@@ -4,10 +4,11 @@
 #ifndef MOVEFACTORY_H
 #define MOVEFACTORY_H
 #include "Move.h"
+#include <iostream>
 
 class MoveFactory {
     public:
-    Move* createMove(std:: string moveName);
+    static Move* createMove(std:: string moveName);
     };
 
 #endif
