@@ -1,5 +1,5 @@
 //Collaborated with Zach Shinnick A1851035 and Maxwell Bruce A1766106
-#include "Monkey.h"
+#include "monkey.h"
 
 using namespace std;
 Monkey::Monkey() {

@@ -6,7 +6,7 @@
 #include "Paper.h"
 #include "Rock.h"
 #include "Scissors.h"
-#include "Monkey.h"
+#include "monkey.h"
 #include "Ninja.h"
 #include "Pirate.h"
 #include "Robot.h"
