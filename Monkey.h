@@ -7,11 +7,11 @@
 #include <unordered_map>
 
 class Monkey : public Move {
-public:
-Monkey();
-int getResult(std:: string opponent);
-std::string getName();
+ public:
+  Monkey();                                  
+  int getResult(std::string opponent);  
+  std::string getName();  
 
-};
+};                   
 
 #endif

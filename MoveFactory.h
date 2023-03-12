@@ -7,7 +7,7 @@
 
 class MoveFactory {
     public:
-    Move* createMove(std:: string move);
+    Move* createMove(std:: string moveName);
     };
 
 #endif
