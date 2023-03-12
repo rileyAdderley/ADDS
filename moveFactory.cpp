@@ -1,7 +1,6 @@
 //Collaborated with Zach Shinnick A1851035 and Maxwell Bruce A1766106
 
 #include "moveFactory.h"
-#include "monkey.h"
 #include "Move.h"
 #include "Ninja.h"
 #include "Paper.h"
@@ -28,8 +27,6 @@ Move* MoveFactory::createMove(
     return new Ninja();
   } else if (moveName == "Zombie") {
     return new Zombie();
-  } else if (moveName == "Monkey") {
-    return new Monkey();
-  }
+  } 
   return nullptr;
 };
