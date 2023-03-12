@@ -9,8 +9,8 @@
 class Scissors : public Move {
 public:
 Scissors();
-std::string getResult(std:: string opponent );
-std::string getName( );
+int getResult(std:: string opponent);
+std::string getName();
 
 };
 

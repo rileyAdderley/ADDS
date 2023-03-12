@@ -9,8 +9,8 @@
 class Monkey : public Move {
 public:
 Monkey();
-std::string getResult(std:: string opponent );
-std::string getName( );
+int getResult(std:: string opponent );
+std::string getName();
 
 };
 

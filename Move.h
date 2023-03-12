@@ -11,8 +11,8 @@ protected:
 std::unordered_map<std::string, bool> result;
 std::string name;
 public:
-virtual std::string getResult(std:: string opponent ) = 0;
-virtual std::string getName( ) = 0;
+virtual int getResult(std:: string opponent) = 0;
+virtual std::string getName() = 0;
 
 };
 

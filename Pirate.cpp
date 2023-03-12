@@ -5,15 +5,15 @@
 using namespace std;
 Pirate::Pirate() {
     name = "Pirate";
-    result = ["Robot"] = 1;
-    result = ["Monkey"] = 1;
+    result["Robot"] = 1;
+    result["Monkey"] = 1;
     
 }
 
-std::string getResult(std:: string opponent ) {
+int Pirate::getResult(std:: string opponent) {
     return result[opponent];
 }
 
-std::string getName( ) {
+string Pirate::getName() {
     return name;
 }

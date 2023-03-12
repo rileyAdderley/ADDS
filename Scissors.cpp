@@ -6,14 +6,14 @@
 using namespace std;
 Scissors::Scissors() {
     name = "Scissors";
-    result = ["Paper"] = 1;
+    result["Paper"] = 1;
     
 }
 
-std::string getResult(std:: string opponent ) {
+int Scissors::getResult(std:: string opponent) {
     return result[opponent];
 }
 
-std::string getName( ) {
+string Scissors::getName() {
     return name;
 }

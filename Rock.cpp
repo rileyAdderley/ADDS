@@ -6,14 +6,14 @@
 using namespace std;
 Rock::Rock() {
     name = "Rock";
-    result = ["Scissors"] = 1;
+    result["Scissors"] = 1;
     
 }
 
-std::string getResult(std:: string opponent ) {
+int Rock::getResult(std:: string opponent) {
     return result[opponent];
 }
 
-std::string getName( ) {
+string Rock::getName( ) {
     return name;
 }

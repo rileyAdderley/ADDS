@@ -6,15 +6,15 @@
 using namespace std;
 Monkey::Monkey() {
     name = "Monkey";
-    result = ["Ninja"] = 1;
-    result = ["Robot"] = 1;
+    result["Ninja"] = 1;
+    result ["Robot"] = 1;
     
 }
 
-std::string getResult(std:: string opponent ) {
+int Monkey::getResult(std:: string opponent ) {
     return result[opponent];
 }
 
-std::string getName( ) {
+string Monkey::getName() {
     return name;
 }

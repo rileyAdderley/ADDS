@@ -9,8 +9,8 @@
 class Ninja : public Move {
 public:
 Ninja();
-std::string getResult(std:: string opponent );
-std::string getName( );
+int getResult(std:: string opponent);
+std::string getName();
 
 };
 

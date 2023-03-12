@@ -10,8 +10,8 @@ protected:
 Move * playerMove;
 std::string name;
 public:
-virtual Move* makeMove( ) = 0;
-virtual std::string getName( ) = 0;
+virtual Move* makeMove() = 0;
+virtual std::string getName() = 0;
 
 };
 

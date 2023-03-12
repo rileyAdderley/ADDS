@@ -9,8 +9,8 @@
 class Pirate : public Move {
 public:
 Pirate();
-std::string getResult(std:: string opponent );
-std::string getName( );
+int getResult(std:: string opponent);
+std::string getName();
 
 };
 

@@ -9,8 +9,8 @@
 class Paper : public Move {
 public:
 Paper();
-std::string getResult(std:: string opponent );
-std::string getName( );
+int getResult(std:: string opponent);
+std::string getName();
 
 };
 

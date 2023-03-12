@@ -5,11 +5,9 @@
 #define MOVEFACTORY_H
 #include "Move.h"
 
-class MoveFactory : public Move {
-
-public:
-Move* createMove(std:: string move);
-
-};
+class MoveFactory {
+    public:
+    Move* createMove(std:: string move);
+    };
 
 #endif

@@ -6,14 +6,14 @@
 using namespace std;
 Paper::Paper() {
     name = "Paper";
-    result = ["Rock"] = 1;
+    result["Rock"] = 1;
     
 }
 
-std::string getResult(std:: string opponent ) {
+int Paper::getResult(std:: string opponent) {
     return result[opponent];
 }
 
-std::string getName( ) {
+string Paper::getName() {
     return name;
 }

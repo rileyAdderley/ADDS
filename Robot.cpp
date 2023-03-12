@@ -5,15 +5,15 @@
 using namespace std;
 Robot::Robot() {
     name = "Robot";
-    result = ["Ninja"] = 1;
-    result = ["Zombie"] = 1;
+    result["Ninja"] = 1;
+    result["Zombie"] = 1;
     
 }
 
-std::string getResult(std:: string opponent ) {
+int Robot::getResult(std:: string opponent) {
     return result[opponent];
 }
 
-std::string getName( ) {
+string Robot::getName() {
     return name;
 }

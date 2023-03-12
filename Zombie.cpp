@@ -5,15 +5,15 @@
 using namespace std;
 Zombie::Zombie() {
     name = "Zombie";
-    result = ["Pirate"] = 1;
-    result = ["Monkey"] = 1;
+    result["Pirate"] = 1;
+    result["Monkey"] = 1;
     
 }
 
-std::string getResult(std:: string opponent ) {
+int Zombie::getResult(std:: string opponent) {
     return result[opponent];
 }
 
-std::string getName( ) {
+string Zombie::getName() {
     return name;
 }
