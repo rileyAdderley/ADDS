@@ -3,6 +3,7 @@
 #include <iostream>
 #include "Rock.h"
 
+using namespace std;
 Rock::Rock() {
     name = "Rock";
     result = ["Scissors"] = 1;

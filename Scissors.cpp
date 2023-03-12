@@ -3,6 +3,7 @@
 #include <iostream>
 #include "Scissors.h"
 
+using namespace std;
 Scissors::Scissors() {
     name = "Scissors";
     result = ["Paper"] = 1;
