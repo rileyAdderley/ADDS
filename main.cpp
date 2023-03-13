@@ -1,6 +1,6 @@
 #include "moveFactory.h"
 #include "Human.h"
-#include "monkey.h"
+#include "Monkey.h"
 #include "Move.h"
 #include "Ninja.h"
 #include "Paper.h"

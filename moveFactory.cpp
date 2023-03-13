@@ -9,6 +9,8 @@
 #include "Rock.h"
 #include "Scissors.h"
 #include "Zombie.h"
+#include "Monkey.h"
+
 
 Move* MoveFactory::createMove(
     std::string moveName) {  
@@ -27,6 +29,8 @@ Move* MoveFactory::createMove(
     return new Ninja();
   } else if (moveName == "Zombie") {
     return new Zombie();
-  } 
+  } else if (moveName == "Monkey") {
+    return new Monkey();
+  }
   return nullptr;
 };
