@@ -14,7 +14,7 @@ Player * Referee::refGame(Player * player1, Player * player2) {
     return nullptr;
   }
 
-    if (player1_move == player2_move) {
+    if (player1_move->getName() == player2_move->getName()) {
         return nullptr;
     }
 
