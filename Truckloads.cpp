@@ -1,15 +1,21 @@
 #include "Truckloads.h"
 
 Truckloads::Truckloads(){
-   int numCrates = 2;
-    int loadsize = 1;
+   crates = 2;
+   load = 1;
 }
+
+Truckloads::Truckloads(int numCrates, int Loadsize){
+   crates = numCrates;
+   load = Loadsize;
+}
+
 int Truckloads::getNumCrates() {
-    return numCrates;
+    return crates;
 }
 
 int Truckloads::getLoadsize() {
-    return loadsize;
+    return load;
 }
 
 int Truckloads::numTrucks(int numCrates,int loadsize) {
