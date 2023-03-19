@@ -6,8 +6,8 @@
 class Reverser {
 
     public:
-    int ReverseDigit(int value);
-    std::string ReverseString(std::string characters);
+    int reverseDigit(int value);
+    std::string reverseString(std::string characters);
     };
 
 #endif
