@@ -21,10 +21,10 @@ int Truckloads::getLoadsize() {
 }
 
 int Truckloads::numTrucks(int numCrates,int loadsize) {
-    if (loadsize >= numCrates) {
+    if (numCrates <= loadsize) {
         return 1;
     } else {
-        return numTrucks(numCrates/2 +numCrates%2,loadsize) + numTrucks(numCrates/2,loadsize);
+        return numTrucks(numCrates%2 + numCrates/2,loadsize) + numTrucks(numCrates/2,loadsize);
     }
 
 }
