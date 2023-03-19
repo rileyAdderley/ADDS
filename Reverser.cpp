@@ -16,6 +16,6 @@ int Reverser::ReverseDigit(int value) {
 
 string Reverser::ReverseString(string characters) {
     if(characters.size()==1) return characters;
-    char frontcharacter = character[0];
+    char frontcharacter = characters[0];
     return ReverseString(characters.substr(1,characters.size())) + frontcharacter;
 }
